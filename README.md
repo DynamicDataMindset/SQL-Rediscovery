@@ -193,8 +193,11 @@ But this:
 - Placed `COUNT` outside the `SELECT` clause,
 - Didn't include a proper `GROUP BY`,
 - Mixed row-level details with aggregation logic—causing errors.
+  
 I corrected it by focusing solely on `department` and using `GROUP BY` correctly with `COUNT(*)`.
+
 📘 Real-World Application:
+
 This query is perfect for:
 - Headcount tracking
 - Departmental growth audits
