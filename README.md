@@ -8,7 +8,7 @@ All queries were executed using **SQLite**, and this README documents the final 
 
 ---
 
-## 📁 Table Schema (from CSV import)
+## 📁 Table Schema (from CSV import) 📄 [Download the dataset (CSV)](https://drive.google.com/file/d/1cmU3Gq4SIsGLyn5jCRk3w7LLqkk8NwdX/view?usp=sharing)
 
 - `first_name`
 - `last_name`
