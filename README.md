@@ -27,7 +27,29 @@ All queries were executed using **SQLite**, and this README documents the final 
 ```sql
 SELECT * FROM employees;
 ```
+Basic full-table exploration.
+
 ### 2️⃣ Show first and last names of employees
 ```sql
 SELECT first_name, last_name FROM employees; 
 ```
+Focuses on identification columns only
+
+### 3️⃣ Show employees hired before 2020
+```sql
+SELECT first_name, last_name, hire_date
+FROM employees
+WHERE hire_date < '2020-01-01';
+```
+🛠 Debug Insight:
+Originally tried  `'2020/01/01' `, which didn’t match SQLite’s expected  `YYYY-MM-DD ` format. I corrected this by inspecting the data with:
+```sql
+SELECT DISTINCT hire_date FROM employees;
+```
+### 4️⃣ Show employees with salary greater than 80,000
+```sql
+SELECT first_name, last_name, salary
+FROM employees
+WHERE salary > 80000;
+```
+
