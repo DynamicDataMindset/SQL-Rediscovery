@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/91746af0-ffda-4bf7-83bd-b3a8a617dbeb" /># SQL Rediscovery – University Of Mpumalanga Sessions
+# SQL Rediscovery – University Of Mpumalanga Sessions
 
 I studied SQL during my Diploma and Advanced Diploma in Applications Development at the University of Mpumalanga. This project is part of my personal revision—to see if I still remember SQL queries and core concepts.
 
