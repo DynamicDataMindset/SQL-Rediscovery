@@ -4,7 +4,7 @@ I studied SQL during my Diploma and Advanced Diploma in Applications Development
 
 To test myself, I asked ChatGPT to generate a sample table in CSV format. I then uploaded it into Copilot, which generated 20 SQL practice questions for me to work through, ranging from easy to advanced.
 
-All queries were executed using **SQLite**, and this README documents the final queries, my debugging steps, and learning insights for each. I’m currently branching into **Data Analytics and Data Science**, where SQL is essential—so this is the first batch of revision queries. More are coming as I level up.
+All queries were executed using **SQLiteonline** (https://sqliteonline.com), and this README documents the final queries, my debugging steps, and learning insights for each. I’m currently branching into **Data Analytics and Data Science**, where SQL is essential—so this is the first batch of revision queries. More are coming as I level up.
 
 ---
 
