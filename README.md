@@ -182,6 +182,7 @@ ORDER BY department ASC;
 - `AS` number_of_employees renames the result column for clarity.
 - `ORDER BY` department ASC sorts the output alphabetically by department name.
 🛠️ Debugging Insight:
+
 At first, I tried mixing individual employee names with aggregation like this
 ```sql
 SELECT first_name || ' ' || last_name AS full_name, department
